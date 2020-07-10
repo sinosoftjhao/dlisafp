@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <body>
+        <h1 style="text-align: center;color:greenyellow"><b>AFP管理页面</b></h1>
+
+        <form action="redis.do" method="post" style="border-color: blue;background-origin: border-box">
+            <table>
+                <caption style="color: blue; align-content: center ">REDIS</caption>
+                <tr>
+                    <td>key</td>
+                    <td>
+                        <input type="text" name="key">
+                    </td>
+                </tr>
+                <tr>
+                    <td>value</td>
+                    <td>
+                        <input type="text" name="value">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">提交</button>
+        </form>
+
+        <form action="activemq.do" method="post">
+            <table>
+                <caption style="color: blue; align-content: center ">ACTIVEMQ</caption>
+                <tr>
+                    <td>quename</td>
+                    <td>
+                        <input type="text" name="quaname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>message</td>
+                    <td>
+                        <input type="text" name="message">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">提交</button>
+        </form>
+
+        <form action="zk.do" method="post">
+            <table>
+                <caption style="color: blue; align-content: center ">ZOOKEEPER</caption>
+                <tr>
+                    <td>nodename</td>
+                    <td>
+                        <input type="text" name="nodename">
+                    </td>
+                </tr>
+                <tr>
+                    <td>value</td>
+                    <td>
+                        <input type="text" name="value">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">提交</button>
+        </form>
+    </body>
+</html>

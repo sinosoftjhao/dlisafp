@@ -1,0 +1,35 @@
+jdbc:
+  driverClassName: oracle.jdbc.driver.OracleDriver
+  driverClassPath: D:/java/repository/com/oracle/ojdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar
+  password: dlisdip
+  url: jdbc:oracle:thin:@192.168.43.131:1521:ORA11G
+  username: dlisdip
+mybatis:
+  mapper-locations: classpath:mappings/*.xml
+#数据库连接
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    initial-size: 5
+    max-idle: 10
+    max-wait: 10000
+    min-idle: 5
+    password: dlisdip
+    url: jdbc:oracle:thin:@192.168.43.131:1521:ORA11G
+    username: dlisdip
+
+#sharding-jdbc
+#spring:
+#  datasource:
+#    db0:
+#      driverClassName: oracle.jdbc.driver.OracleDriver
+#      jdbcUrl: jdbc:oracle:thin:@192.168.43.131:1521:ORA11G
+#      password: dlisdip
+#      username: dlisdip
+#    db1:
+#      driverClassName: oracle.jdbc.driver.OracleDriver
+#      jdbcUrl: jdbc:oracle:thin:@192.168.43.131:1521:ORA11G
+#      password: conf
+#      username: conf
+
+#test
