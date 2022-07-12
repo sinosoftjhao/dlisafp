@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <axis2.version>1.6.2</axis2.version>
+        <axis2.version>1.6.3</axis2.version>
     </properties>
 
     <dependencies>
